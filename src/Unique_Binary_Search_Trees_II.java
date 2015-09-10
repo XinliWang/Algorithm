@@ -1,4 +1,3 @@
-import javax.swing.tree.TreeNode;
 import java.util.*;
 /**
  * Given n, generate all structurally unique BST's
@@ -10,9 +9,9 @@ import java.util.*;
 
  1        3     3      2      1
  \       /     /      / \      \
- 3     2     1      1   3      2
+  3     2     1      1   3      2
  /     /       \                 \
- 2     1         2                 3
+2     1         2                 3
  Tags Expand
  Dynamic Programming Depth First Search
  */
@@ -39,13 +38,18 @@ public class Unique_Binary_Search_Trees_II {
            list.add(null);
            return list;
        }
+
        for(int i=left;i<=right;i++){
+           //traverse every element,and make each one to be the root
            ArrayList<TreeNode> leftTree = helper(left,i-1);
            ArrayList<TreeNode> rightTree = helper(i+1,right);
 
+           //when i is root, permutate all combination
            for(int j=0;j <= leftTree.size();j++){
                for(int k=0;k<=rightTree.size();k++){
+
                    TreeNode cur = new TreeNode(i);
+                   //make every node to a right combination
                    cur.left = leftTree.get(j);
                    cur.right = rightTree.get(k);
                    list.add(cur);
@@ -55,3 +59,4 @@ public class Unique_Binary_Search_Trees_II {
        return list;
    }
 }
+

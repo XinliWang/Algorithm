@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Given a triangle, find the minimum path sum from top to bottom.
@@ -22,6 +23,7 @@ import java.util.ArrayList;
  Dynamic Programming
  */
 public class Triangle {
+    //Solution1:Bottom to up
     public int minimumTotal(ArrayList<ArrayList<Integer>> triangle){
         if (triangle == null || triangle.size() == 0){
             return 0;
@@ -41,4 +43,29 @@ public class Triangle {
         }
         return sum[0][0];
     }
+    //Solution2:up to bottom
+    public int minimumTotal2(List<List<Integer>> triangle) {
+        int sizeRow = triangle.size();
+        int sizeCol = triangle.get(0).size();
+        int[][]T = new int[sizeRow][sizeCol];
+        T[0][0] = triangle.get(0).get(0);
+        for (int i=1;i<sizeRow;i++){
+            for(int j=0;j<i+1;j++){
+                //边界情况boundary condition
+                if(j==0){
+                    T[i][j] = T[i-1][j] + triangle.get(i).get(j);
+                }else if(j==i){
+                    T[i][j] = T[i-1][j-1] + triangle.get(i).get(j);
+                }else{
+                    T[i][j] = Math.min(T[i-1][j-1],T[i-1][j]) + triangle.get(i).get(j);
+                }
+            }
+        }
+        int min = T[sizeRow-1][0];
+        for(int i=1;i<sizeCol;i++){
+            min = Math.min(min,T[sizeRow][i]);
+        }
+        return min;
+    }
+
 }

@@ -1,5 +1,3 @@
-import javax.swing.tree.TreeNode;
-
 /**
  * Given a binary tree, find the maximum path sum.
 

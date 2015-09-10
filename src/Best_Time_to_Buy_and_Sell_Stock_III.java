@@ -15,7 +15,7 @@
  Tags Expand
  Enumeration Forward-Backward Traversal Array
  */
-public class Best_Time_to_Buy_and_Sell_Stock3 {
+public class Best_Time_to_Buy_and_Sell_Stock_III {
     //divide and conquer
     public int maxProfit(int[]prices){
         if(prices==null||prices.length<=1){

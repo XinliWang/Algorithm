@@ -36,6 +36,7 @@ public class Next_Permutation {
             }
         }
         reverse(nums,0,size-1);
+        //Arrays.sort(nums,i,size);
         return nums;
     }
 

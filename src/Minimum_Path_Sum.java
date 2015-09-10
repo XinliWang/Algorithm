@@ -23,11 +23,11 @@ public class Minimum_Path_Sum {
             sum[i][0] = sum[i-1][0]+grid[i][0];
         }
         for(int j=0;j<m;j++){
-            sum[j][0] = sum[j-1][0]+grid[j][0];
+            sum[0][j] = sum[0][j-1]+grid[0][j];
         }
         for(int i=0;i<n;i++){
             for(int j =0;j<m;j++){
-                sum[i][j] = Math.min(sum[i-1][j],sum[i][j-1])+grid[i][j];
+                sum[i][j] = Math.min(sum[i-1][j],sum[i][j-1]) + grid[i][j];
             }
         }
         return sum[n-1][m-1];

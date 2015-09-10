@@ -1,5 +1,7 @@
-import java.util.Arrays;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * Given an array S of n integers, are there elements a, b, c in S
  * such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
@@ -24,13 +26,14 @@ public class Sum3 {
      * @param numbers : Give an array numbers of n integer
      * @return : Find all unique triplets in the array which gives the sum of zero.
      */
-    public ArrayList<ArrayList<Integer>> threeSum(int[] numbers) {
+    public ArrayList<List<Integer>> threeSum(int[] numbers) {
         // write your code here
-        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
-        if(numbers.length<3)return result;
+        ArrayList<List<Integer>> result = new ArrayList<>();
+        if(numbers==null || numbers.length<3) return result;
 
         Arrays.sort(numbers);
         for(int i=0;i<numbers.length;i++){
+            //保证数组递增,防止数组值都相等而出现list重复数组的情况(或者使用HashSet存储，再用list.addAll(set))
             if(i==0||numbers[i]>numbers[i-1]){
                 int start = i+1;
                 int end = numbers.length-1;
