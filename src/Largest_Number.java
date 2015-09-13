@@ -35,6 +35,7 @@ public class Largest_Number {
         for(String arr:array){
             str = arr + str;
         }
+        //if the value of array are all 0, we just stay one.
         int i = 0;
         while(i < nums.length-1){
             if(str.charAt(i)!='0'){
