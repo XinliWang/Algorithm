@@ -1,5 +1,6 @@
-import javax.swing.tree.*;
 import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Given a binary tree, find its minimum depth.
 
@@ -78,5 +79,22 @@ public class Minimum_Depth_of_Binary_Tree {
         }
         return 0;
     }
-
+    //方法三：BFS,直接for循环
+    public int minDepth3(TreeNode root) {
+        if(root==null)return 0;
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        int count = 1;
+        while(!queue.isEmpty()){
+            int size = queue.size();
+            for(int i=0;i<size;i++){
+                TreeNode node = queue.poll();
+                if(node.left!=null)queue.offer(node.left);
+                if(node.right!=null)queue.offer(node.right);
+                if(node.left==null && node.right==null)return count;
+            }
+            count++;
+        }
+        return count;
+    }
 }
