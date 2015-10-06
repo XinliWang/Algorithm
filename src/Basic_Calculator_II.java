@@ -20,7 +20,7 @@ public class Basic_Calculator_II {
         Stack<Integer> stack = new Stack<>();
         int result = 0;
         char sign = '+';
-        
+
         for(int i=0;i<s.length();i++){
             char temp = s.charAt(i);
             if(temp=='+'||temp=='-'||temp=='*'||temp=='/'){
