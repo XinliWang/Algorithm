@@ -96,8 +96,8 @@
       <file leaf-file-name="Binary_Tree_Preorder_Traversal.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Preorder_Traversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.15492958" vertical-offset="329" max-vertical-offset="1110">
-              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.84635085" vertical-offset="434" max-vertical-offset="1515">
+              <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -678,12 +678,12 @@
       <workItem from="1445197857897" duration="2888000" />
       <workItem from="1445282610716" duration="1041000" />
       <workItem from="1446850916314" duration="2673000" />
-      <workItem from="1447025922234" duration="2189000" />
+      <workItem from="1447025922234" duration="2663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="269985000" />
+    <option name="totallyTimeSpent" value="270459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1206,8 +1206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Preorder_Traversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15492958" vertical-offset="329" max-vertical-offset="1110">
-          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.84635085" vertical-offset="434" max-vertical-offset="1515">
+          <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
           <folding />
         </state>
       </provider>
