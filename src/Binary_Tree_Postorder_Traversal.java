@@ -21,7 +21,8 @@ public class Binary_Tree_Postorder_Traversal {
     /**
      * Soluiton1:
      * 1. postorder traversal's order is left->right->father
-     * 2. each time we insert node to the first position of the list
+     * 2. each time we insert node to the first position of the list,
+     *    it means we need insert the last node first
      * 3. each time we push node to stack's order is root->(left->right)
      * 4. each time we pop node from stack is root->(right->left)
      */
