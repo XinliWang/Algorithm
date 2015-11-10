@@ -30,6 +30,19 @@ public class Binary_Tree_Preorder_Traversal {
         return list;
     }
 
+    //Recursive2:
+    private List<Integer> list;
+    public List<Integer> preorderTraversal2(TreeNode root) {
+        list = new ArrayList<Integer>();
+        helper(root);
+        return list;
+    }
+    private void helper(TreeNode node){
+        if(node==null)return;
+        list.add(node.val);
+        helper(node.left);
+        helper(node.right);
+    }
     /**
      * 方法二：Iterative:
      * 1.each time add right and left node to stack
@@ -38,7 +51,7 @@ public class Binary_Tree_Preorder_Traversal {
      */
 
 
-    public List<Integer> preorderTraversal2(TreeNode root){
+    public List<Integer> preorderTraversal3(TreeNode root){
         List<Integer> list = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         stack.push(root);
