@@ -23,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Recover_Binary_Search_Tree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Recover_Binary_Search_Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="97" max-vertical-offset="930">
-              <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sudoku_Solver.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sudoku_Solver.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Binary_Tree_Preorder_Traversal.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Binary_Tree_Preorder_Traversal.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Preorder_Traversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.84635085" vertical-offset="434" max-vertical-offset="1515">
+            <state vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1515">
               <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Binary_Tree_Inorder_Traversal.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Inorder_Traversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5761844" vertical-offset="75" max-vertical-offset="945">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -133,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Repeated_DNA_Sequences.java" />
         <option value="$PROJECT_DIR$/src/Restore_IP_Addresses.java" />
         <option value="$PROJECT_DIR$/src/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java" />
         <option value="$PROJECT_DIR$/src/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java" />
@@ -184,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/DateConvert.java" />
         <option value="$PROJECT_DIR$/src/Balanced_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Binary_Tree_Preorder_Traversal.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Tree_Inorder_Traversal.java" />
       </list>
     </option>
   </component>
@@ -678,12 +678,12 @@
       <workItem from="1445197857897" duration="2888000" />
       <workItem from="1445282610716" duration="1041000" />
       <workItem from="1446850916314" duration="2673000" />
-      <workItem from="1447025922234" duration="2663000" />
+      <workItem from="1447025922234" duration="2927000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="270459000" />
+    <option name="totallyTimeSpent" value="270723000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -803,14 +803,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="840">
@@ -1206,8 +1198,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Preorder_Traversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.84635085" vertical-offset="434" max-vertical-offset="1515">
+        <state vertical-scroll-proportion="0.0" vertical-offset="434" max-vertical-offset="1515">
           <caret line="75" column="43" selection-start-line="75" selection-start-column="43" selection-end-line="75" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Inorder_Traversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5761844" vertical-offset="75" max-vertical-offset="945">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
           <folding />
         </state>
       </provider>

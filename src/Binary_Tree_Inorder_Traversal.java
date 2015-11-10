@@ -19,7 +19,24 @@ import java.util.Stack;
 
  */
 public class Binary_Tree_Inorder_Traversal {
-    public List<Integer> inorderTraversal(TreeNode root){
+    //Solution1:recursive
+    private List<Integer> list;
+    public List<Integer> inorderTraversal1(TreeNode root) {
+        list = new ArrayList<Integer>();
+        helper(root);
+        return list;
+    }
+    private void helper(TreeNode node){
+        if(node==null)return;
+        helper(node.left);
+        list.add(node.val);
+        helper(node.right);
+    }
+
+
+
+    //Solution2: iterative
+    public List<Integer> inorderTraversal2(TreeNode root){
         ArrayList<Integer> list= new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
