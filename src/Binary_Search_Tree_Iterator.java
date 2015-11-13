@@ -8,7 +8,57 @@ import java.util.ArrayList;
  Note: next() and hasNext() should run in average O(1) time and uses O(h) memory,
  where h is the height of the tree.
  */
+
 public class Binary_Search_Tree_Iterator {
+    /**
+     * Solution1:
+     * 1.we save all values of nodes using in-order traverse into Queue
+     * 2.then check queue and get the result. O(n) memory
+     */
+
+    /**
+    private Queue<Integer> queue;
+    public Binary_Search_Tree_Iterator(TreeNode root) {
+        Stack<TreeNode> stack = new Stack<>();
+        queue =new LinkedList<Integer>();
+        if(root==null)return;
+        TreeNode node = root;
+        stack.push(node);
+        while(!stack.isEmpty()){
+
+            while(node.left!=null){
+                stack.push(node.left);
+                node = node.left;
+            }
+            TreeNode temp = stack.pop();
+            queue.add(temp.val);
+            if(temp.right!=null){
+                node = temp.right;
+                stack.push(node);
+            }
+        }
+    }
+
+    public boolean hasNext1() {
+        return !queue.isEmpty();
+    }
+
+    public int next1() {
+        int result=-1;
+        if(!queue.isEmpty()){
+            result = queue.poll();
+        }
+        return result;
+    }
+    */
+
+
+
+    /**
+     * Solution2:
+     * 1. Each time we save left side nodes and return the leftest node
+     * 2.
+     */
     ArrayList<TreeNode> list = new ArrayList<>();
     public Binary_Search_Tree_Iterator(TreeNode root){
         //左孩子最小
