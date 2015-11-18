@@ -17,7 +17,8 @@ import java.util.Queue;
    / \   / \
   9   6 3   1
  */
-//use BFS
+//use BFS, we will have asymmetric situation :  1,2,3,4 -> 1,3,2,null,null,null,4
+
 
 /**
  * Definition of TreeNode:
@@ -30,32 +31,51 @@ import java.util.Queue;
  *     }
  * }
  */
+
+
+
+
 public class Invert_Binary_Tree {
 
+    /**
+     * Iterative solution:
+     */
     public TreeNode invertTree(TreeNode root){
         if(root==null)return null;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        TreeNode replace = null;
-        TreeNode node = null;
-        int size = 0;
         while (!queue.isEmpty()){
-            size = queue.size();
-
-            for(int i =0;i<size;i++){
-                node = queue.poll();
-                
-                if(node.left!=null){
-                    queue.offer(node.left);
-                }
-                if(node.right!=null){
-                    queue.offer(node.right);
-                }
-                replace = node.left;
-                node.left = node.right;
-                node.right = replace;
+            TreeNode node = queue.poll();
+            TreeNode temp = node.left;
+            node.left = node.right;
+            node.right = temp;
+            if(node.left!=null){
+                queue.offer(node.left);
+            }
+            if(node.right!=null){
+                queue.offer(node.right);
             }
         }
+        return root;
+    }
+
+    /**
+     * Recursive solution:
+     */
+    public TreeNode invertTree2(TreeNode root){
+        //when the loop get to leaf
+        if(root==null) return null;
+        //record left node of every level
+        TreeNode temp = root.left;
+        //use recursive way to put right node to the left place to calculate
+        root.left = invertTree2(root.right);
+        //then put left node to the right place ot calculate
+        root.right = invertTree2(temp);
+        /**
+         * 1. from last level to switch and return to previous level
+         * 2. at last return to first level and get the root node
+         */
+
         return root;
     }
 }
