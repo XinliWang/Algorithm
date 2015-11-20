@@ -29,6 +29,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+
+
+
 public class Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if(inorder.length!=postorder.length){
@@ -52,7 +55,6 @@ public class Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal {
             }
         }
         //get the size of leftTree and rightTree in order to get the left side and right side of postorder
-        if(rootPosition==-1)return null;
         int leftTreeSize = rootPosition - startIn;
         int rightTreeSize = endIn - rootPosition;
 

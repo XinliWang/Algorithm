@@ -17,9 +17,9 @@
 
 /**
  *  1.the same as the Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal
- *  2.the most important thing is getting the root
+ *  2.the most important thing is getting the root from the preorder
  *  3.it is easy to know the root is the first element of preorder
- *  4.each time we get the first element of the preorder which is the root in every loop
+ *  4.each time we get the size of left and right tree from inorder in order to get the first position in preorder
  */
 public class Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
