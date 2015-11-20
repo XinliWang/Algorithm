@@ -31,7 +31,10 @@
  */
 
 
-
+/**
+ * 1.the root in every level is from the last node of postorder
+ * 2.get the size of left and right tree from inorder based on the value of root in postorder
+ */
 public class Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if(inorder.length!=postorder.length){

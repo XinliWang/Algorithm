@@ -98,10 +98,10 @@
       <file leaf-file-name="Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25329816" vertical-offset="303" max-vertical-offset="1080">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.3126649" vertical-offset="303" max-vertical-offset="1125">
+              <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
               <folding>
-                <element signature="e#0#2274#0" expanded="true" />
+                <element signature="e#0#2439#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -685,12 +685,12 @@
       <workItem from="1447025922234" duration="4065000" />
       <workItem from="1447422847704" duration="1268000" />
       <workItem from="1447872153756" duration="1300000" />
-      <workItem from="1447968729353" duration="1130000" />
+      <workItem from="1447968729353" duration="1178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="275559000" />
+    <option name="totallyTimeSpent" value="275607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1214,10 +1214,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Construct_Binary_Tree_from_Inorder_and_Postorder_Traversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25329816" vertical-offset="303" max-vertical-offset="1080">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.3126649" vertical-offset="303" max-vertical-offset="1125">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
           <folding>
-            <element signature="e#0#2274#0" expanded="true" />
+            <element signature="e#0#2439#0" expanded="true" />
           </folding>
         </state>
       </provider>
