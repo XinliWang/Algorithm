@@ -19,7 +19,7 @@ import java.util.ArrayList;
  */
 public class Inorder_Successor_in_BST {
     /**
-     * Solution1
+     * Solution1：Recursive
      */
     public TreeNode inorderSuccessor(TreeNode root, TreeNode p) {
         ArrayList<TreeNode> list = new ArrayList<>();
@@ -43,7 +43,21 @@ public class Inorder_Successor_in_BST {
 
 
     /**
-     * Solution2:
+     * Solution2:Iterative
+     * BST is a sorted tree, we can compare in every step.
+     * Remember: we need record the bigger node before step into next loop.
      */
-    
+    public TreeNode inorderSuccessor2(TreeNode root, TreeNode p) {
+        TreeNode result = null;
+        while(root!=null){
+            if(p.val<=root.val){
+                result = root;
+                root = root.left;
+            }else{
+                root = root.right;
+            }
+        }
+        return result;
+    }
+
 }

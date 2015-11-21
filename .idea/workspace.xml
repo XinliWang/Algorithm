@@ -100,8 +100,8 @@
       <file leaf-file-name="Inorder_Successor_in_BST.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Inorder_Successor_in_BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93007916" vertical-offset="0" max-vertical-offset="825">
-              <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6635884" vertical-offset="202" max-vertical-offset="1035">
+              <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -705,12 +705,12 @@
       <workItem from="1447025922234" duration="4065000" />
       <workItem from="1447422847704" duration="1268000" />
       <workItem from="1447872153756" duration="1300000" />
-      <workItem from="1447968729353" duration="1720000" />
+      <workItem from="1447968729353" duration="2374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="276149000" />
+    <option name="totallyTimeSpent" value="276803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1236,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Inorder_Successor_in_BST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93007916" vertical-offset="0" max-vertical-offset="825">
-          <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.6635884" vertical-offset="202" max-vertical-offset="1035">
+          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
