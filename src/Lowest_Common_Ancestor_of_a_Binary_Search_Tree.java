@@ -23,6 +23,9 @@
 
 
 public class Lowest_Common_Ancestor_of_a_Binary_Search_Tree {
+    /**
+     * Solution1: Iterative
+     */
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (p.val == q.val)return q;
         TreeNode r = root;
@@ -36,4 +39,14 @@ public class Lowest_Common_Ancestor_of_a_Binary_Search_Tree {
         }
         return r;
     }
+
+    /**
+     * Solution2: Recursive
+     */
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        if(root.val>p.val&&root.val>q.val) return lowestCommonAncestor2(root.left,p,q);
+        if(root.val<p.val&&root.val<q.val) return lowestCommonAncestor2(root.right,p,q);
+        return root;
+    }
+
 }
