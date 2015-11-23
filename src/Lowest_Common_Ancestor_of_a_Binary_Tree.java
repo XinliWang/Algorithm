@@ -30,16 +30,18 @@ public class Lowest_Common_Ancestor_of_a_Binary_Tree {
         }
         return left==null? right : left;
     }
-    
+
     public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        //we will check from bottom to top
         if(root==null)return null;
         TreeNode left = lowestCommonAncestor(root.left,p,q);
         TreeNode right = lowestCommonAncestor(root.right,p,q);
 
         if(root == p || root ==q)return root;
+        //Once left or right side get node, then we will always return this node
+        if(left==null && right==null)return null;
         if(left!=null && right==null)return left;
         if(left==null && right!=null)return right;
-        if(left==null && right==null)return null;
         return root;
     }
 }

@@ -98,8 +98,8 @@
       <file leaf-file-name="Lowest_Common_Ancestor_of_a_Binary_Tree.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6332454" vertical-offset="0" max-vertical-offset="765">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.6728232" vertical-offset="0" max-vertical-offset="795">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -704,12 +704,12 @@
       <workItem from="1447422847704" duration="1268000" />
       <workItem from="1447872153756" duration="1300000" />
       <workItem from="1447968729353" duration="2485000" />
-      <workItem from="1448297212540" duration="824000" />
+      <workItem from="1448297212540" duration="1121000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277738000" />
+    <option name="totallyTimeSpent" value="278035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1233,8 +1233,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6332454" vertical-offset="0" max-vertical-offset="765">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.6728232" vertical-offset="0" max-vertical-offset="795">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
