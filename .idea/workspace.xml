@@ -23,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Binary_Tree_Postorder_Traversal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Postorder_Traversal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1515">
-              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Binary_Search_Tree_Iterator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Binary_Search_Tree_Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,12 +85,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6530343" vertical-offset="0" max-vertical-offset="758">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
               <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Lowest_Common_Ancestor_of_a_Binary_Tree.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6332454" vertical-offset="0" max-vertical-offset="765">
+              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Peeking_Iterator.java" />
         <option value="$PROJECT_DIR$/src/H_index_II.java" />
         <option value="$PROJECT_DIR$/src/Single_Number_III.java" />
         <option value="$PROJECT_DIR$/src/Different_Ways_to_Add_Parentheses.java" />
@@ -186,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/career/LiveRampOA/Inorder_Successor_in_BST.java" />
         <option value="$PROJECT_DIR$/src/Inorder_Successor_in_BST.java" />
         <option value="$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" />
+        <option value="$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Tree.java" />
       </list>
     </option>
   </component>
@@ -702,12 +704,12 @@
       <workItem from="1447422847704" duration="1268000" />
       <workItem from="1447872153756" duration="1300000" />
       <workItem from="1447968729353" duration="2485000" />
-      <workItem from="1448297212540" duration="240000" />
+      <workItem from="1448297212540" duration="824000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277154000" />
+    <option name="totallyTimeSpent" value="277738000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -827,14 +829,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/H_index_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
-          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Single_Number.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
@@ -1231,9 +1225,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6530343" vertical-offset="0" max-vertical-offset="758">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6332454" vertical-offset="0" max-vertical-offset="765">
+          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

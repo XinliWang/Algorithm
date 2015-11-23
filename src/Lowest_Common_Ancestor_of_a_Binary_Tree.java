@@ -15,7 +15,10 @@
  since a node can be a descendant of itself according to the LCA definition.
  */
 
-//recursive
+/**
+ * Solution: Recursive to do Post Order
+ */
+
 public class Lowest_Common_Ancestor_of_a_Binary_Tree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(p==q)return p;
@@ -26,5 +29,17 @@ public class Lowest_Common_Ancestor_of_a_Binary_Tree {
             return root;
         }
         return left==null? right : left;
+    }
+    
+    public TreeNode lowestCommonAncestor2(TreeNode root, TreeNode p, TreeNode q) {
+        if(root==null)return null;
+        TreeNode left = lowestCommonAncestor(root.left,p,q);
+        TreeNode right = lowestCommonAncestor(root.right,p,q);
+
+        if(root == p || root ==q)return root;
+        if(left!=null && right==null)return left;
+        if(left==null && right!=null)return right;
+        if(left==null && right==null)return null;
+        return root;
     }
 }
