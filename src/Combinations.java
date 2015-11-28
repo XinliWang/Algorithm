@@ -27,7 +27,10 @@ public class Combinations {
     }
     public void helper(int n, int k,List<List<Integer>> lists,List<Integer> list,int start){
         if(list.size() == k){
-            lists.add(list);
+            /**
+             * We need use new ArrayList to add list, otherwise the list in lists will be changed
+             */
+            lists.add(new ArrayList(list));
         }
         if(list.size()>k || start>n) return;
         for(int i=start;i <= n;i++){
