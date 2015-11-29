@@ -23,22 +23,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Convert_Sorted_Array_to_Binary_Search_Tree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Convert_Sorted_Array_to_Binary_Search_Tree.java">
+      <file leaf-file-name="Binary_Search_Tree_Iterator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Binary_Search_Tree_Iterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="465" max-vertical-offset="570">
-              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+              <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java">
+      <file leaf-file-name="BST_MaxLength_RightOrLeft.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/career/iCIMS/BST_MaxLength_RightOrLeft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="840">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="22" selection-end-column="3" />
-              <folding />
+            <state vertical-scroll-proportion="0.6938776" vertical-offset="105" max-vertical-offset="930">
+              <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
+              <folding>
+                <element signature="e#587#593#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,22 +107,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Combinations.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Combinations.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Combinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57387865" vertical-offset="0" max-vertical-offset="758">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
               <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Trie.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Trie.java">
+      <file leaf-file-name="Factor_Combinations.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Factor_Combinations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1185" max-vertical-offset="1290">
-              <caret line="79" column="1" selection-start-line="32" selection-start-column="0" selection-end-line="79" selection-end-column="1" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,8 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Single_Number_III.java" />
-        <option value="$PROJECT_DIR$/src/Different_Ways_to_Add_Parentheses.java" />
         <option value="$PROJECT_DIR$/src/Missing_Number.java" />
         <option value="$PROJECT_DIR$/src/Contains_Duplicate_III.java" />
         <option value="$PROJECT_DIR$/src/Implement_Trie_Prefix_Tree.java" />
@@ -176,7 +178,6 @@
         <option value="$PROJECT_DIR$/src/Binary_Tree_Preorder_Traversal.java" />
         <option value="$PROJECT_DIR$/src/Binary_Tree_Inorder_Traversal.java" />
         <option value="$PROJECT_DIR$/src/Binary_Tree_Postorder_Traversal.java" />
-        <option value="$PROJECT_DIR$/src/Binary_Search_Tree_Iterator.java" />
         <option value="$PROJECT_DIR$/src/Invert_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Convert_Sorted_Array_to_Binary_Search_Tree.java" />
         <option value="$PROJECT_DIR$/src/Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.java" />
@@ -186,6 +187,9 @@
         <option value="$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Search_Tree.java" />
         <option value="$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Tree.java" />
         <option value="$PROJECT_DIR$/src/Combinations.java" />
+        <option value="$PROJECT_DIR$/src/Factor_Combinations.java" />
+        <option value="$PROJECT_DIR$/src/Binary_Search_Tree_Iterator.java" />
+        <option value="$PROJECT_DIR$/src/career/iCIMS/BST_MaxLength_RightOrLeft.java" />
       </list>
     </option>
   </component>
@@ -281,7 +285,29 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="career/LiveRampOA">
+            <PATH_ELEMENT USER_OBJECT="career">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Leetcode">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="career">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="iCIMS">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -703,12 +729,12 @@
       <workItem from="1447872153756" duration="1300000" />
       <workItem from="1447968729353" duration="2485000" />
       <workItem from="1448297212540" duration="1234000" />
-      <workItem from="1448729867960" duration="951000" />
+      <workItem from="1448729867960" duration="2932000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="279099000" />
+    <option name="totallyTimeSpent" value="281080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -828,22 +854,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Different_Ways_to_Add_Parentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="930">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Missing_Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
-          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Contains_Duplicate_III.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
@@ -1132,14 +1142,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Binary_Search_Tree_Iterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1350">
-          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Invert_Binary_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="1290">
@@ -1232,9 +1234,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Combinations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57387865" vertical-offset="0" max-vertical-offset="758">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
           <caret line="30" column="97" selection-start-line="30" selection-start-column="97" selection-end-line="30" selection-end-column="97" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Factor_Combinations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="750">
+          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Binary_Search_Tree_Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1350">
+          <caret line="75" column="23" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/career/iCIMS/BST_MaxLength_RightOrLeft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6938776" vertical-offset="105" max-vertical-offset="930">
+          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
+          <folding>
+            <element signature="e#587#593#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
