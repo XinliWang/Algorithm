@@ -53,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Symmetric_Tree.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Symmetric_Tree.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Symmetric_Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.7612137" vertical-offset="1012" max-vertical-offset="1770">
+            <state vertical-scroll-proportion="0.0" vertical-offset="811" max-vertical-offset="1770">
               <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -95,11 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Combination_Sum.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Combination_Sum.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Combination_Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="690">
-              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.5952381" vertical-offset="0" max-vertical-offset="756">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -135,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Implement_Trie_Prefix_Tree.java" />
         <option value="$PROJECT_DIR$/src/Trie.java" />
         <option value="$PROJECT_DIR$/src/Validate_Binary_Search_Tree.java" />
         <option value="$PROJECT_DIR$/src/Trapping_Rain_Water.java" />
@@ -186,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/career/iCIMS/BST_MaxLength_RightOrLeft.java" />
         <option value="$PROJECT_DIR$/src/Same_Tree.java" />
         <option value="$PROJECT_DIR$/src/Symmetric_Tree.java" />
+        <option value="$PROJECT_DIR$/src/Combination_Sum.java" />
       </list>
     </option>
   </component>
@@ -705,12 +705,12 @@
       <workItem from="1448297212540" duration="1234000" />
       <workItem from="1448729867960" duration="2932000" />
       <workItem from="1448943745095" duration="176000" />
-      <workItem from="1449020703561" duration="821000" />
+      <workItem from="1449020703561" duration="1274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282077000" />
+    <option name="totallyTimeSpent" value="282530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1182,14 +1182,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Combination_Sum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Combinations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
@@ -1232,11 +1224,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Symmetric_Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7612137" vertical-offset="1012" max-vertical-offset="1770">
+        <state vertical-scroll-proportion="0.0" vertical-offset="811" max-vertical-offset="1770">
           <caret line="29" column="7" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Combination_Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5952381" vertical-offset="0" max-vertical-offset="756">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>

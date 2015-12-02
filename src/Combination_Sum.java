@@ -22,18 +22,20 @@ public class Combination_Sum {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
-        getTarget(candidates,target,lists,list,0,0);
+        getTarget(candidates,target,lists,list,0);
         return lists;
     }
-    public void getTarget(int[] candidates, int target,List<List<Integer>> lists,List<Integer> list, int sum,int start){
-        if (sum == target) lists.add(new ArrayList<Integer>(list));
-        for (int i=start;i<candidates.length;i++){
-            if(sum > target) break;
-            else{
+    public void getTarget(int[] candidates, int target,List<List<Integer>> lists,List<Integer> list, int start){
+        if(target<0)return;
+        if(target==0){
+            lists.add(new ArrayList<Integer>(list));
+            return;
+        }
+        for(int i=start;i<candidates.length;i++){
+            if(target>=candidates[i]){
                 list.add(candidates[i]);
-                getTarget(candidates,target,lists,list,sum,start);
+                getTarget(candidates,target-candidates[i],lists,list,i);
                 list.remove(list.size()-1);
-                sum -= candidates[i];
             }
         }
     }
