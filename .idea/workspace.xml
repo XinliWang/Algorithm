@@ -63,16 +63,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lowest_Common_Ancestor_of_a_Binary_Tree.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Lowest_Common_Ancestor_of_a_Binary_Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="795">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Binary_Tree_Paths.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Binary_Tree_Paths.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Combination_Sum_II.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Combination_Sum_II.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Combination_Sum_II.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8271447" vertical-offset="449" max-vertical-offset="1260">
+            <state vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1260">
               <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Combination_Sum_III.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Combination_Sum_III.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9039693" vertical-offset="329" max-vertical-offset="1200">
+              <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -133,7 +133,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Validate_Binary_Search_Tree.java" />
         <option value="$PROJECT_DIR$/src/Trapping_Rain_Water.java" />
         <option value="$PROJECT_DIR$/src/Find_the_Duplicate_Number.java" />
         <option value="$PROJECT_DIR$/src/Longest_Consecutive_Sequence.java" />
@@ -184,6 +183,7 @@
         <option value="$PROJECT_DIR$/src/Symmetric_Tree.java" />
         <option value="$PROJECT_DIR$/src/Combination_Sum.java" />
         <option value="$PROJECT_DIR$/src/Combination_Sum_II.java" />
+        <option value="$PROJECT_DIR$/src/Combination_Sum_III.java" />
       </list>
     </option>
   </component>
@@ -704,12 +704,12 @@
       <workItem from="1448729867960" duration="2932000" />
       <workItem from="1448943745095" duration="176000" />
       <workItem from="1449020703561" duration="1329000" />
-      <workItem from="1449153539815" duration="1636000" />
+      <workItem from="1449153539815" duration="2275000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="284221000" />
+    <option name="totallyTimeSpent" value="284860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -829,14 +829,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WoodCut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1050">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Word_Break.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
@@ -1231,8 +1223,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Combination_Sum_II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8271447" vertical-offset="449" max-vertical-offset="1260">
+        <state vertical-scroll-proportion="0.0" vertical-offset="449" max-vertical-offset="1260">
           <caret line="75" column="39" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Combination_Sum_III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9039693" vertical-offset="329" max-vertical-offset="1200">
+          <caret line="70" column="39" selection-start-line="70" selection-start-column="39" selection-end-line="70" selection-end-column="39" />
           <folding />
         </state>
       </provider>

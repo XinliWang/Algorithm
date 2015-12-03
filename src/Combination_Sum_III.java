@@ -25,13 +25,14 @@ import java.util.List;
  [[1,2,6], [1,3,5], [2,3,4]]
  */
 public class Combination_Sum_III {
-    public List<List<Integer>> combinationSum3(int k, int n) {
+    //Solution1: use sum ,compare if sum is n
+    public List<List<Integer>> combinationSumIII(int k, int n) {
         List<List<Integer>> lists = new ArrayList<>();
         List<Integer> list = new ArrayList<>();
-        helper(k,n,lists,list,0,1);
+        helper1(k, n, lists, list, 0, 1);
         return lists;
     }
-    public void helper(int k,int n,List<List<Integer>> lists,List<Integer> list,int sum,int start){
+    public void helper1(int k,int n,List<List<Integer>> lists,List<Integer> list,int sum,int start){
         if (k==list.size() && sum == n){
             lists.add(list);
         }
@@ -42,10 +43,33 @@ public class Combination_Sum_III {
                 break;
             }else{
                 list.add(i);
-                helper(k,n,lists,list,sum,i+1);
+                helper1(k, n, lists, list, sum, i + 1);
                 list.remove(list.size()-1);
                 sum -= i;
             }
         }
+    }
+
+    //Solution2: delete n , check if n is 0
+    public List<List<Integer>> combinationSumIII2(int k, int n) {
+        List<List<Integer>> lists = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+        helper2(k, n, lists, list, 1);
+        return lists;
+    }
+    private void helper2(int k,int n,List<List<Integer>> lists,List<Integer> list,int start){
+        if(k==0 && n==0){
+            lists.add(new ArrayList<Integer>(list));
+            return;
+        }
+        if(n<0 || (k>0&&n==0)){
+            return;
+        }
+        for(int i=start;i<=10-k;i++){
+            list.add(i);
+            helper2(k-1,n-i,lists,list,i+1);
+            list.remove(list.size()-1);
+        }
+
     }
 }
