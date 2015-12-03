@@ -20,7 +20,12 @@ import java.util.List;
  [1, 1, 6]
  */
 public class Combination_Sum_II {
-    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
+    /**
+     * Solution1:use HashSet to remove duplicate list, then convert hashset to list
+     * HashSet<List<Integer>> set = new HashSet<>();
+     * List<List<Integer>> list = new ArrayList<>(set);
+     */
+    public List<List<Integer>> combinationSumII(int[] candidates, int target) {
         HashSet<List<Integer>> set = new HashSet<>();
 
         List<Integer> list = new ArrayList<>();
@@ -47,4 +52,29 @@ public class Combination_Sum_II {
         }
 
     }
+
+    /**
+     * Solution2:
+     * Recursive solution, in each loop, we only allow the first step is duplicate
+     */
+    public List<List<Integer>> combinationSumII2(int[] candidates, int target) {
+        List<List<Integer>> lists = new ArrayList<>();
+        List<Integer> list = new ArrayList<>();
+        helper(candidates, target, lists, list, 0);
+        return lists;
+    }
+    private void helper(int[] candidates, int target,List<List<Integer>> lists,List<Integer> list,int start){
+        if(target==0){
+            lists.add(new ArrayList<Integer>(list));
+            return;
+        }
+        if(target<0 || start==candidates.length) return;
+        for(int i=start;i<candidates.length;i++){
+            if(i>start && candidates[i]==candidates[i+1]) continue;
+            list.add(candidates[i]);
+            helper(candidates,target-candidates[i],lists,list,i+1);
+            list.remove(list.size()-1);
+        }
+    }
+
 }
