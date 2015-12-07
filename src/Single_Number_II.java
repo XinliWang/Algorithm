@@ -9,7 +9,7 @@ public class Single_Number_II {
         HashMap<Integer,Integer> map = new HashMap<>();
         for(int i:nums){
             if(map.containsKey(i)){
-                map.replace(i,map.get(i)+1);
+              //  map.replace(i,map.get(i)+1);
             }else{
                 map.put(i,1);
             }

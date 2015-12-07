@@ -20,11 +20,11 @@ public class LRU_Cache {
             }
         };
     }
-    public int get(int key){
-        return map.getOrDefault(key,-1);
-    }
-
-    public void set(int key,int value){
-        map.put(key,value);
-    }
+//    public int get(int key){
+//        return map.getOrDefault(key,-1);
+//    }
+//
+//    public void set(int key,int value){
+//        map.put(key,value);
+//    }
 }

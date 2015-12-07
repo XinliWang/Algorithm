@@ -28,7 +28,7 @@ public class Repeated_DNA_Sequences {
         for(int i=0;i<=length-10;i++){
             String string = s.substring(i,i+10);
             if(map.containsKey(string)){
-                map.replace(string,map.get(string)+1);
+             //   map.replace(string,Integer.valueOf(map.get(string)+1));
             }else{
                 map.put(string,1);
             }

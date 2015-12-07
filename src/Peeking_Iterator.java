@@ -49,6 +49,11 @@ public class Peeking_Iterator implements Iterator<Integer> {
     }
 
     @Override
+    public void remove() {
+
+    }
+
+    @Override
     public boolean hasNext() {
         //cache!=null means we have executed the next() operation
        if(cache!=null || iterator.hasNext()){

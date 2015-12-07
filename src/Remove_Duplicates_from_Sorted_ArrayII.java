@@ -27,7 +27,7 @@ public class Remove_Duplicates_from_Sorted_ArrayII {
                 if(map.get(nums[i])==2){
                     continue;
                 }else{
-                    map.replace(nums[i],map.get(nums[i])+1);
+                 //   map.replace(nums[i],map.get(nums[i])+1);
                 }
             }else{
                 map.put(nums[i],1);
