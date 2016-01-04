@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
  * Given an array of integers, find two numbers such that they add up to a specific target number.
  The function twoSum should return indices of the two numbers such that they add up to the target,
@@ -20,7 +22,11 @@
  Tags Expand
  Two Pointers Sort Array
  */
-public class Sum2 {
+public class TwoSum {
+    /**
+     * Solution1:Runtime is O(n^2)
+     *
+     */
     public int[] twoSum(int[] numbers, int target) {
         int[] A = new int[2];
         for (int i = 0; i < numbers.length - 1; i++) {
@@ -34,4 +40,24 @@ public class Sum2 {
         }
         return null;
     }
+    /**
+     * Solution2: Runtime is O(n) , use HashMap
+     */
+    public int[] twoSum2(int[] nums,int target){
+        int[] index = new int[2];
+        if(nums==null || nums.length==0)return index;
+        HashMap<Integer,Integer> map = new HashMap<>();
+        for(int i=0;i<nums.length;i++){
+            int last = target - nums[i];
+            if(map.containsKey(last)){
+                index[0] = map.get(last);
+                index[1] = i+1;
+                break;
+            }else{
+                map.put(nums[i],i+1);
+            }
+        }
+        return index;
+    }
+
 }
