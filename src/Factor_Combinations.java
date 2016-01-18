@@ -39,6 +39,29 @@ import java.util.List;
 public class Factor_Combinations {
     public List<List<Integer>> getFactors(int n) {
         List<List<Integer>> lists = new ArrayList<>();
+        if(n<=3)return lists;
+        List<Integer> list = new ArrayList<>();
+        getAllFactors(n,lists,list);
         return lists;
+    }
+
+    public void getAllFactors(int n,List<List<Integer>> lists,List<Integer> list){
+        if(n<=3)return;
+        for(int i=2;i*i<=n;i++){
+            if(list.size()==0 || list.size()>0 && list.get(list.size()-1)<=i){
+                if(n%i==0){
+                    List<Integer> temp = new ArrayList<>(list);
+                    temp.add(i);
+                    temp.add(n/i);
+                    lists.add(temp);
+                    
+                    //backtracking
+                    list.add(i);
+                    getAllFactors(n/i,lists,list);
+                    list.remove(list.size()-1);
+                }
+            }
+        }
+
     }
 }
