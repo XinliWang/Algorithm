@@ -23,26 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Permutation_Sequence.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Permutation_Sequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="690" max-vertical-offset="855">
-              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LRU_Cache.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LRU_Cache.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="540">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TwoSum.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoSum.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,11 +93,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Single_Number.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Single_Number.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Single_Number.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5761844" vertical-offset="0" max-vertical-offset="781">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
               <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Single_Number_II.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Single_Number_II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="930">
+              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Single_Number_III.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Single_Number_III.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.09603073" vertical-offset="0" max-vertical-offset="930">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -169,7 +171,6 @@
         <option value="$PROJECT_DIR$/src/LRU_Cache.java" />
         <option value="$PROJECT_DIR$/src/Peeking_Iterator.java" />
         <option value="$PROJECT_DIR$/src/Remove_Duplicates_from_Sorted_ArrayII.java" />
-        <option value="$PROJECT_DIR$/src/Single_Number_II.java" />
         <option value="$PROJECT_DIR$/src/Repeated_DNA_Sequences.java" />
         <option value="$PROJECT_DIR$/src/career/Amazon/WindowSum.java" />
         <option value="$PROJECT_DIR$/src/career/Amazon/Overlap_Rectangle.java" />
@@ -184,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/Factor_Combinations.java" />
         <option value="$PROJECT_DIR$/src/Letter_Combinations_of_a_Phone_Number.java" />
         <option value="$PROJECT_DIR$/src/Single_Number.java" />
+        <option value="$PROJECT_DIR$/src/Single_Number_II.java" />
       </list>
     </option>
   </component>
@@ -704,12 +706,12 @@
       <workItem from="1452242676331" duration="168000" />
       <workItem from="1453125512526" duration="1758000" />
       <workItem from="1453390324496" duration="1836000" />
-      <workItem from="1453429716080" duration="386000" />
+      <workItem from="1453429716080" duration="910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301934000" />
+    <option name="totallyTimeSpent" value="302458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -801,14 +803,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Sudoku_Solver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Word_Pattern.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
@@ -1039,14 +1033,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Single_Number_II.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Repeated_DNA_Sequences.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="303" max-vertical-offset="810">
@@ -1196,8 +1182,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Single_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5761844" vertical-offset="0" max-vertical-offset="781">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Single_Number_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="134" max-vertical-offset="930">
+          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Single_Number_III.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09603073" vertical-offset="0" max-vertical-offset="930">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding />
         </state>
       </provider>
