@@ -57,6 +57,25 @@ public class Letter_Combinations_of_a_Phone_Number {
         return list;
     }
 
+
+
+    public List<String> Combinations(ArrayList<ArrayList<String>> strings){
+        List<String> list = new ArrayList<>();
+        list.add("");
+        for(int i=0;i<strings.size();i++){
+            List<String> tempList = new ArrayList<>();
+            ArrayList<String> curList = strings.get(i);
+            for(String s1: list){
+                for(String s2: curList){
+                    tempList.add(s1+""+s2);
+                }
+            }
+            list = tempList;
+        }
+        return list;
+    }
+
+
     public static void main(String[] args){
         Letter_Combinations_of_a_Phone_Number le = new Letter_Combinations_of_a_Phone_Number();
         le.letterCombinations("223");

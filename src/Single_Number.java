@@ -10,22 +10,21 @@ import java.util.Iterator;
 public class Single_Number {
     public int singleNumber(int[] nums){
         HashSet<Integer> set = new HashSet<>();
-        for(int i=0;i<nums.length;i++){
-            if(!set.add(nums[i])){
-                set.remove(nums[i]);
+        for(int num:nums){
+            if(!set.add(num)){
+                set.remove(num);
             }
         }
         Iterator<Integer> iterator = set.iterator();
         return iterator.next();
     }
-}
+
 
 //Solution2: use XOR, because XOR is commutative(交换性) and associative（结合性）
-class Single_Number2 {
-    public int singleNumber(int[] nums) {
+    public int singleNumber2(int[] nums) {
         int result=0;
-        for(int i=0;i<nums.length;i++){
-            result = result ^ nums[i];
+        for(int num:nums){
+            result ^= num;
         }
         return result;
     }

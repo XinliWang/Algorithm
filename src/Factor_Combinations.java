@@ -54,7 +54,7 @@ public class Factor_Combinations {
                     temp.add(i);
                     temp.add(n/i);
                     lists.add(temp);
-                    
+
                     //backtracking
                     list.add(i);
                     getAllFactors(n/i,lists,list);
