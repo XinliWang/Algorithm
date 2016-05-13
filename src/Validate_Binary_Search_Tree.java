@@ -46,7 +46,7 @@ public class Validate_Binary_Search_Tree {
         //reach the last one successfully
         if(node==null)return true;
         if(min!=null && node.val<=min)return false;
-        if(max!=null && node.val<=min)return false;
+        if(max!=null && node.val>=max)return false;
         return isValidValue(node.left,min,node.val) && isValidValue(node.right,node.val,max);
     }
 }

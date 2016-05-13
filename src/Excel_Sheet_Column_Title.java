@@ -13,6 +13,7 @@
  28 -> AB
  */
 public class Excel_Sheet_Column_Title {
+    //Solution1
     public String convertToTitle(int n) {
         StringBuilder builder = new StringBuilder();
         while(n!=0){
@@ -21,4 +22,16 @@ public class Excel_Sheet_Column_Title {
         }
         return builder.toString();
     }
+
+    //Solution2
+    public String convertToTitle2(int n){
+        StringBuilder builder = new StringBuilder();
+        while(n>0){
+            char c = (char)((n-1)%26 + 'A');
+            builder.insert(0,c);
+            n = (n-1)/26;
+        }
+        return builder.toString();
+    }
+
 }
